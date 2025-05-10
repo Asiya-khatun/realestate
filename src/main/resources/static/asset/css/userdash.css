@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* Navbar Styles */
+/* Fix Navbar Height */
+.navbar {
+    background-color: #343a40;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050; 
+}
+
+/* Navbar Brand and Links */
+.navbar-brand, .navbar-nav a {
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* On Hover */
+.navbar-nav a:hover {
+    color: #f1c40f;
+}
+
+/* Navbar container adjustment */
+.navbar .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.swiper-container {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.swiper-slide img {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.property-section-heading h2 {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+.property-section-heading p {
+	text-align: center;
+	font-size: 1.2rem;
+	color: #777;
+}
+
+footer {
+    background-color: #343a40; /* dark background */
+    color: #ffffff;            /* white text */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #f8c291; /* nice light color for links */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #ff9f43;
+}
